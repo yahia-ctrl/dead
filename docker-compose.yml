@@ -7,7 +7,7 @@ services:
       ACCEPT_EULA: "Y"
     ports:
       
-"1434:1433"
+"1435:1433"
 api:
   build: .
   depends_on:
@@ -15,4 +15,4 @@ sqlserver
 environment:
   ConnectionStrings__DefaultConnection: "Server=sqlserver;Database=AdventureWorks;User Id=sa;Password=YourStrong@Passw0rd;"
 ports:
-"8081:8080"
+"8082:8080"
