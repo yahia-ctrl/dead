@@ -5,14 +5,13 @@ services:
     environment:
       SA_PASSWORD: "YourStrong@Passw0rd"
       ACCEPT_EULA: "Y"
-    ports:
-      
-"1435:1433"
+    ports:     
+- "1434:1433"
 api:
   build: .
   depends_on:
-sqlserver
+- sqlserver
 environment:
   ConnectionStrings__DefaultConnection: "Server=sqlserver;Database=AdventureWorks;User Id=sa;Password=YourStrong@Passw0rd;"
 ports:
-"8082:8080"
+- "8081:8080"
