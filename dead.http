@@ -1,0 +1,6 @@
+@dead_HostAddress = http://localhost:5267
+
+GET {{dead_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

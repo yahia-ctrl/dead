@@ -167,3 +167,9 @@ D:\dead\obj\Debug\net8.0\refint\dead.dll
 D:\dead\obj\Debug\net8.0\dead.pdb
 D:\dead\obj\Debug\net8.0\dead.genruntimeconfig.cache
 D:\dead\obj\Debug\net8.0\ref\dead.dll
+D:\dead\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\dead\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\dead\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\dead\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\dead\obj\Debug\net8.0\dead.MvcApplicationPartsAssemblyInfo.cs
+D:\dead\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll

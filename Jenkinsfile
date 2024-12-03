@@ -4,14 +4,14 @@ pipeline {
     stage('Build') {
       steps {
         script {
-          bat 'dotnet build dead.sln'
+          bat 'dotnet build Microservices.sln'
         }
       }
     }
     stage('Docker Build') {
       steps {
         script {
-          bat 'docker build -t dead-api .'
+          bat 'docker build -t microservices-api .'
         }
       }
     }
